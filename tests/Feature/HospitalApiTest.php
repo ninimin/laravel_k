@@ -35,7 +35,7 @@ class HospitalApiTest extends TestCase
         // Assert - check that status 200
         //        - check that there are 10 objects in the array
         $response -> assertStatus(200);
-        $response -> assertJsonCount(11);
+        $response -> assertJsonCount(10);
 
     }
     
